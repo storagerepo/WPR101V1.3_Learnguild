@@ -1,0 +1,82 @@
+#p_maincontent
+{
+   /* border: solid 1px #000000;     */
+   /* width: 910px;     */
+    min-height:400px;
+    margin: 0px auto;
+    width:950px;
+
+
+}
+#layout_content
+{
+    /*border:solid 1px #000000;    */
+    margin-top: 100px;
+    min-height: 700px;
+    width: 100%;
+    background-image: url("center_content.png");
+    background-repeat: no-repeat;
+    padding-top:12px;
+
+    height: auto;
+}
+#p_banner
+{
+    padding: 10px;
+    height: 50px;
+    width:920px;
+   /* border: solid 1px #000000; */
+    margin: 5px;
+    background-image: url("black_banner.png");
+
+    /*border:solid 0.5px grey;    */
+   /* background-color:lightslategrey; */
+}
+#p_banner_content
+{
+    margin-left: 50px;
+    height: 50px;
+    width:400px;
+    /*border: dotted 1px gainsboro; */
+
+
+    font-family:fantasy;
+
+}
+#p_vertical_menu
+{
+
+    width:180px;
+    min-height:500px ;
+    padding:20px 10px 10px 10px;
+   /*border: solid 1px #000000;*/
+    float: left;
+
+}
+#p_content
+{
+    width: 730px;
+    min-height: 500px;
+    height: auto;
+    float: left;
+/*border: solid 1px #000000;           */
+    padding: 10px 5px 5px 5px;
+
+}
+#p_body_content
+{
+    width:690px;
+    padding: 20px;
+    border: solid 1px gray;
+    min-height: 500px;
+    height: auto;
+
+}
+#body_content ul li
+{
+    color: black;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: "Droid Sans";
+
+}

@@ -1,0 +1,186 @@
+body
+{
+    background-image: url("after_blue.jpg");
+    background-repeat:repeat-x;
+    background-color:white;
+}
+div#wrapper
+{
+    width:1000px;
+    margin:0px auto;
+    padding: 10px;
+    height: auto;
+    /*border: solid 1px red;      */
+    overflow: hidden;
+}
+div#logo
+{
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+    float: left;
+ /* border:solid 1px black;     */
+    background-image: url("templatemo_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div#slider1
+{
+    padding: 5px;
+    width: 700px;
+    height: 305px;
+    margin-top: 170px;   /* original value was 100px*/
+    margin-left:90px;
+    background-color: white;
+    box-shadow: 0px 5px 5px grey;
+    /*border:solid 1px black;  */
+}
+div#maincontent
+{
+    margin-top: 30px;
+    width: 100%;
+    min-height:700px;
+    height: auto;
+
+}
+div#menu
+{
+    margin-top: 30px;
+    float: right;
+    height:15px;
+    width: 700px;
+                     padding: 10px;
+}
+.bannerinside
+{
+    padding: 10px;
+    width: 220px;
+    height: 220px;
+    background-color: #ffffff;
+}
+div#footer
+{
+
+    height:220px;
+    background-repeat: repeat;
+    /*border: solid 1px #000000;    */
+    background-image: url(banner.jpg);
+    margin: 0px;
+
+}
+#body_content
+{
+     width: 700px;
+    border-bottom:dotted 1px grey;
+     float: left;
+    height: auto;
+    overflow: hidden;
+  /*  border: solid 1px green;   */
+
+    }
+#side_body_content
+{
+    color:dimgrey;
+    font-family:sans-serif;
+    text-spacing:no-compress;
+    width:700px;
+    /*margin-top: 30px;      */
+/*border: solid 1px blue;  */
+    float: left;
+    margin-bottom: 30px;
+}
+div#banner
+{
+   min-height: 200px;
+    height: auto;
+    overflow: hidden;
+    width:230px;
+    float: right;
+   padding: 20px;
+    /*background-color:#F0F0F0;  light grey*/
+    margin-top: 0px;
+          /*border: groove 5px #A5ACAC;   */
+    /**background-color: 	#A5ACAC; */
+  /* border: solid 1px yellow;     */
+
+
+}
+div.cols
+{
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family:"Droid Sans";
+    border-right:dotted 1px darkgray;
+    line-height: 20px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+
+}
+#footer div a
+{
+    color: white;
+    padding: 2px;
+}
+#footer div a:hover
+{
+    color: red;
+}
+#footer_table
+{
+   /* background-image: url(banner.jpg);   */
+
+}
+
+
+
+/*Font */
+
+p
+{
+    color: dimgray;
+    font-family:"Droid Sans";
+    font-style:normal;
+    font-weight:normal;
+    font-size:15px;
+    line-height:20px;
+    text-align: justify;
+
+}
+
+h5
+{
+    font-family: "Droid sans";
+    font-weight:normal;
+    color:darkslategrey;
+    line-height:18px;
+    text-align: justify;
+
+}
+#worldwide_content
+{
+
+    width:940px;
+    min-height: 500px;
+    height: auto;
+    float: left;
+    border: solid 1px #000000;
+    padding: 10px 5px 5px 5px;
+    background-image: url(World.jpg);
+    background-position: center;
+    opacity: 50;
+
+
+}
+.tabcontent h5
+{
+    color:darkslategrey;
+}
+.tabcontent p{
+    color:darkslategrey;
+}
+img
+{
+    border: solid 2px gainsboro;
+    margin-left: 20px;
+    margin-right: 20px;
+}
